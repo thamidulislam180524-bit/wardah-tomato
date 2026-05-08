@@ -31,6 +31,7 @@ body{
 }
 
 @keyframes float{
+
   0%{
     transform:translateY(0);
     opacity:0;
@@ -44,6 +45,7 @@ body{
     transform:translateY(-120vh);
     opacity:0;
   }
+
 }
 
 .hero{
@@ -103,7 +105,7 @@ body{
 .love-section,
 .sad-section,
 .ending{
-  padding:100px 20px;
+  padding:70px 20px;
   text-align:center;
 }
 
@@ -141,18 +143,15 @@ body{
 }
 
 .gallery-slider{
-  display:flex;
-  overflow-x:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
   gap:25px;
-  padding:10px;
-}
-
-.gallery-slider::-webkit-scrollbar{
-  display:none;
+  max-width:1000px;
+  margin:auto;
 }
 
 .photo-card{
-  min-width:260px;
+  width:100%;
   background:white;
   padding:15px 15px 30px;
   border-radius:18px;
@@ -290,6 +289,10 @@ body{
 
 @media(max-width:768px){
 
+  .gallery-slider{
+    grid-template-columns:repeat(2,1fr);
+  }
+
   .hero h1{
     font-size:2.4rem;
   }
@@ -303,7 +306,7 @@ body{
   }
 
   .photo-card{
-    min-width:220px;
+    width:100%;
   }
 
 }
