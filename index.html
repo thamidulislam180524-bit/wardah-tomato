@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2 Years of Us ✨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="hearts"></div>
+
+  <audio id="bgMusic" loop>
+    <source src="assets/music/song.mp3" type="audio/mp3">
+  </audio>
+
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <p class="small-text">For Wardah, from Tomato 💖</p>
+
+      <h1 id="typing"></h1>
+
+      <p class="hero-subtitle">
+        A tiny dreamy corner made only for us.
+      </p>
+
+      <button class="enter-btn" onclick="startExperience()">
+        Enter Our World ✨
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <section class="counter-section fade-up">
+
+    <h2>2 years of us fev day ✨</h2>
+
+    <div class="counter-box">
+      <div>
+        <span id="days">0</span>
+        <p>Days</p>
+      </div>
+
+      <div>
+        <span id="hours">0</span>
+        <p>Hours</p>
+      </div>
+
+      <div>
+        <span id="minutes">0</span>
+        <p>Minutes</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="gallery fade-up">
+
+    <h2>Our Little Moments 📸</h2>
+
+    <div class="gallery-slider">
+
+      <div class="photo-card rotate-left">
+        <img src="assets/images/pic1.jpg" alt="photo">
+        <p>our favorite chaos</p>
+      </div>
+
+      <div class="photo-card rotate-right">
+        <img src="assets/images/pic2.jpg" alt="photo">
+        <p>soft moments</p>
+      </div>
+
+      <div class="photo-card rotate-left">
+        <img src="assets/images/pic3.jpg" alt="photo">
+        <p>still choosing you</p>
+      </div>
+
+      <div class="photo-card rotate-right">
+        <img src="assets/images/pic4.jpg" alt="photo">
+        <p>our safe place</p>
+      </div>
+
+      <div class="photo-card rotate-left">
+        <img src="assets/images/pic5.jpg" alt="photo">
+        <p>home feels like you</p>
+      </div>
+
+      <div class="photo-card rotate-right">
+        <img src="assets/images/pic6.jpg" alt="photo">
+        <p>forever starts here</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="timeline fade-up">
+
+    <h2>Our Story ✨</h2>
+
+    <div class="timeline-box">
+
+      <div class="timeline-item">
+        <h3>22 March 2023</h3>
+        <p>The first conversation that quietly changed everything.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>20 July 2023</h3>
+        <p>First meeting. Nervous hearts. Soft smiles.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>24 Aug 2023 ☔</h3>
+        <p>First rain together. One of our sweetest memories.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>9 Oct 2023 💖</h3>
+        <p>Officially ours.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>18-5-2024 ✨</h3>
+        <p>One of our favorite days together.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Today 🌙</h3>
+        <p>
+          Amader naki rls June mash porjonto tikbe hahah 🙂<br>
+          Still here. Still us.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="love-section fade-up">
+
+    <h2>Reasons I Love You 💕</h2>
+
+    <div class="love-grid">
+
+      <div class="love-card">
+        You make ordinary moments beautiful.
+      </div>
+
+      <div class="love-card">
+        You stayed.
+      </div>
+
+      <div class="love-card">
+        You understand my silence.
+      </div>
+
+      <div class="love-card">
+        You feel like home.
+      </div>
+
+      <div class="love-card">
+        Life feels softer with you.
+      </div>
+
+      <div class="love-card">
+        Even time feels prettier with you.
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="sad-section fade-up">
+
+    <button class="sad-btn" onclick="openSadMessage()">
+      Open when sad 💌
+    </button>
+
+  </section>
+
+
+  <div class="popup" id="popup">
+
+    <div class="popup-content">
+
+      <span class="close" onclick="closePopup()">&times;</span>
+
+      <h2>Hey Janu 🌸</h2>
+
+      <p>
+        No matter how difficult life gets,<br>
+        you never have to carry it alone.
+        <br><br>
+        You are deeply loved.
+        <br><br>
+        Always remember that.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <section class="ending fade-up">
+
+    <h2>
+      Thank you for existing.
+    </h2>
+
+    <p>
+      Thank you for choosing us.
+      <br>
+      Forever feels softer with you.
+    </p>
+
+    <span>
+      — Tomato 💖
+    </span>
+
+  </section>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
