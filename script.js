@@ -24,6 +24,11 @@ function startExperience(){
 
   music.play();
 
+  document.querySelector(".counter-section")
+  .scrollIntoView({
+    behavior:"smooth"
+  });
+
 }
 
 
